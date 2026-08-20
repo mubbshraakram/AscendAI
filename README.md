@@ -1,16 +1,86 @@
-# React + Vite
+ Ascend AI 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> *Because where you're headed matters more than where you've been.*
 
-Currently, two official plugins are available:
+An AI-powered career guidance web app built for students who refuse to figure it out alone.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
+🔗 [ascend-ai-pied.vercel.app](https://ascend-ai-pied.vercel.app/)
 
-## React Compiler
+## What It Does
+Enter your skills, education, and goals — Ascend AI returns:
+- **Career Path** — your best direction based on your actual profile
+- **Skill Gaps** — exactly what you're missing to reach your goal
+- **Action Plan** — 3 concrete next steps you can take today
+- **Opportunities** — roles and internships to target right now
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React + Vite + Tailwind CSS |
+| Backend | Node.js + Express |
+| AI | Groq API (Llama 3) |
+| Deployment | Vercel + Railway |
 
-## Expanding the ESLint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+```bash
+git clone https://github.com/mubbshraakram/AscendAI.git
+cd AscendAI
+npm install
+npm run dev
+```
+
+### Backend
+```bash
+git clone https://github.com/mubbshraakram/Ascend-backend.git
+cd Ascend-backend
+npm install
+```
+
+Create `.env` file:
+```
+GROQ_API_KEY= your_groq_api_key
+PORT=5000
+```
+
+```bash
+node index.js
+```
+
+## Environment Variables
+
+### Frontend (.env)
+
+VITE_BACKEND_URL=http://localhost:5000
+
+
+### Backend (.env)
+
+GROQ_API_KEY=your_groq_api_key
+PORT=5000
+
+
+## Project Structure
+
+AscendAI/
+├── src/
+│ ├── App.jsx # Main component + UI
+│ ├── index.css # Tailwind setup
+│ └── main.jsx # Entry point
+├── .env.example
+└── index.html
+
+
+## Screenshots
+<img width="960" height="540" alt="2026-08-15 (11)" src="https://github.com/user-attachments/assets/d04eb312-9a96-405a-adb5-c17dd8854853" />
+
+
+## Developer
+Built by **Mubbshra Akram** — BS IT Student, University of Punjab
+- GitHub: [@mubbshraakram](https://github.com/mubbshraakram)
+- LinkedIn: [Mubbshra Akram](https://linkedin.com/in/mubbshra-akram)
+
+
+*Built for students who refuse to settle.*
